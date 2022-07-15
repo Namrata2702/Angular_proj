@@ -5,6 +5,8 @@ import { MatToolbarModule } from '@angular/material/toolbar'
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatListModule } from '@angular/material';
 import { MatGridListModule } from '@angular/material';
+import { MatCardModule } from '@angular/material';
+import { MatButtonModule } from '@angular/material';
 import { AppComponent } from './app.component';
 
 import 'hammerjs';
@@ -19,7 +21,11 @@ import { MenuComponent } from './menu/menu.component';
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    FlexLayoutModule,MatListModule,MatGridListModule
+    FlexLayoutModule,
+    MatListModule,
+    MatGridListModule,
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
